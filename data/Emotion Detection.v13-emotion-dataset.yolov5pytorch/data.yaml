@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
+
+roboflow:
+  workspace: fyp-79hef
+  project: emotion-detection-kfjvw
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fyp-79hef/emotion-detection-kfjvw/dataset/13
